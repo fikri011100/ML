@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mobile Learning</string>
+    <string name="recommend">Recommended For You</string>
+    <string name="more">MORE</string>
+    <string name="dummy_photoshoptitle">Master Web design in photoshop Course</string>
+    <string name="dummy_photoshopdesc">16 Videos | 11h 15m</string>
+
+    <string name="dummy_unrealenginetitle">Game Development using Unreal Engine</string>
+    <string name="dummy_unrealenginedesc">5 Videos | 9h</string>
+
+    <string name="dummy_kotlintitle">Build Your Own Android App with Kotlin</string>
+    <string name="dummy_kotlindesc">18 Videos | 17h 30m</string>
+
+    <string name="dummy_ethicalhackingtitle">The Complete Ethical Hacking Course</string>
+    <string name="dummy_ethicalhackingdesc">14 Videos | 25h</string>
+    <string name="recently">Recently Added</string>
+    <string name="search_hint">Search for courses</string>
+
+    <string-array name="courses_array">
+        <item>Matematika</item>
+        <item>Fisika</item>
+        <item>Kimia</item>
+        <item>Bahasa Indonesia</item>
+    </string-array>
+
+
+</resources>
