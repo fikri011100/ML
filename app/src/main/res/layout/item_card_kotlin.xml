@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView android:layout_width="220dp"
+<RelativeLayout android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_margin="6dp"
-    android:elevation="2dp"
-    app:cardCornerRadius="5dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardkotl"
+        android:layout_margin="6dp"
+        android:elevation="2dp"
+        app:cardCornerRadius="5dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageViewkotl"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:scaleType="centerCrop"
@@ -34,4 +39,5 @@
             android:text="@string/dummy_kotlindesc"
             android:padding="8dp"/>
     </LinearLayout>
-</android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
